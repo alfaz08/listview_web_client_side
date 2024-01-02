@@ -64,10 +64,6 @@ const Login = () => {
 
 
 
-   <p className="text-center mt-4 mb-4 ">
-     <span className="text-xl font-semibold ">Don't have an account please</span>
-     <Link to="/signUp"  className=" font-bold text-blue-600 text-xl hover:text-red-600"> Register</Link>
-   </p>
 
 
 
