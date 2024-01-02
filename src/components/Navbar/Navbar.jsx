@@ -16,13 +16,8 @@ const Navbar = () => {
     <>
       <li className="text-xl"><NavLink to="/">Home</NavLink></li>
       <li className="text-xl"><NavLink to="/signUp">Sign Up</NavLink></li>
-      <li className="bg-teal-200 rounded-lg">
-        <div className="bg-teal-300">
-          
-          <div className="badge bg-teal-300 font-bold"></div>
-        </div>
-      </li>
-      <li className="text-xl"><NavLink to="/contact" >Contact</NavLink></li>
+      
+      <li className="text-xl"><NavLink to="/login" >login</NavLink></li>
     </>
   );
   
